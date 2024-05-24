@@ -49,5 +49,13 @@ def browser(request):
     return request.config.getoption("--browser")
 
 
+# from selenium import webdriver
+# from webdriver_manager.chrome import ChromeDriverManager
+
+# def before_all(context):
+#     context.driver = webdriver.Chrome(ChromeDriverManager().install())
+
+# def after_all(context):
+#     context.driver.quit()
 
     
